@@ -1,0 +1,347 @@
+@font-face{
+  @font-face {
+    font-family: Myfont;
+    src: url('../font/tb-icon.ttf');
+  }
+}
+
+  body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Myfont;
+}
+
+
+.container{
+  height: 500px;
+}
+.bg-gray{
+  background-color: #efefef;
+}
+.flex{
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 50%;
+}
+.image{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.img{
+  object-fit: fill;
+  width: 400px;
+}
+.align-items{
+  align-items: center;
+}
+.content p{
+  /* margin: 0; */
+  margin-bottom: 50px;
+}
+.content h1{
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 300;
+}
+.extra{
+  margin-bottom: 50px !important;
+  margin-top: 15px !important;
+}
+.content a{
+  color: black;
+  font-weight: 600;
+}
+.section_1{
+  width: 50%;
+}
+.bg_img_1{
+  background-image: url(../Html-day5/images/shirt-2.jpg);
+  height: 600px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.m_t_b{
+  height: 750px !important;
+}
+.bg_img_2{
+  background-image: url(../Html-day5/images/shirt-1.jpg);
+  height: 300px;
+  margin-bottom: 30px;
+}
+.content_2{
+  height: 270px;
+  /* background-color: red; */
+}
+.content_2 p{
+  margin: 0px;
+}
+.content_2 h1{
+  margin: 0;
+}
+.bigsale{
+  margin-bottom: 30px !important;
+}
+.font-bold{
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 20px !important;
+}
+.content_2 a{
+  color: black;
+  font-weight: 600;
+}
+.gap{
+  gap: 60px;
+}
+.bg_img_3{
+  background-image: url(../Html-day5/images/dress-1.jpg);
+  height: 600px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.bg_img_4{
+  background-image: url(../Html-day5/images/dress-2.jpg);
+  height: 300px;
+  margin-bottom: 30px;
+  /* background-size: cover;
+  background-position: center; */
+}
+.bg_img_5{
+  background-image: url(../Html-day5/images/background-section-4-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+
+
+.overlay{
+  background-color: #0000008a;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg_img_6{
+  /* background-color: red; */
+  background-image: url(../Html-day5/images/boyjacket.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.textholder h2{
+  font-size: 1rem;
+}
+.absolute{
+  position: absolute;
+  bottom: -70%;
+  left: 7%;
+}
+
+.g-10{
+  gap: 15px;
+}
+.sign{
+  display: flex;
+  grid-area: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    /* background-color: blue;  */
+  }
+  
+   .mobile_flex{
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+   }
+
+   .section_1{
+    width: 95%;
+   }
+   .bg_img_1{
+    width: 95%;
+   }
+   .m_t_b{
+  height: 1000px !important;   
+  }
+  .absolute{
+    top: 80%;
+    bottom: 0;
+  }
+  .bg_img_6{
+    height: 200px;
+  }
+
+  .image_holder{
+    height: 300px;
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont h1{
+    font size: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    /* background-color: red; */
+  }
+  
+  .cont{
+    width: 90%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+  }
+  .cont-up{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    position: absolute;
+  }
+
+  .cont a{
+    margin-top: 0;
+    font-size: 10px;
+  }
+
+  .cont p{
+    color: black;
+    font-size: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+ .extra{
+  font-size: 10px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+ }
+
+ .container{
+  margin-bottom: 10px;
+  position: relative;
+ }
+ 
+ .image{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+ }
+ .image img{
+  width: 55%;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+ }
+ .big_sale{
+  color: black;
+  margin-bottom: 0px !important;
+
+ }
+
+ .cont h1{
+  font-size: 30px;
+  text-align: center;
+ }
+ .bg_img_1{
+  /* background-image: url(../Html-day5/images/shirt-2.jpg); */
+  height: 600px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+ }
+
+ .bg_img_2{
+  /* background-image: url(../Html-day5/images/shirt-2.jpg); */
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ .content_2{
+  margin-bottom: 0px !important;
+  height: 90px;
+  text-align: center;
+ }
+
+ .bg_img_5{
+  background-image: url(../Html-day5/images/background-section-4-1.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 10px !important;
+}
+
+.bg_img_6{
+  /* background-color: red; */
+  height: 300px;
+  margin: 0px !important;
+}
+.women-text{
+  height: 300px;
+  margin-top: 20px;
+}
+.absolute{
+  top: 80%;
+  bottom: 0;
+}
+.bg_img_6{
+  height: 220px;
+}
+.image_holder{
+  height: 300px;
+}
+.bg_img_5{
+  height: 200px;
+}
+.bg_img_3{
+  margin-bottom: 20px;
+}
+.overlay{
+  height: 200px;
+}
+.none{
+  display: none;
+}
+}
